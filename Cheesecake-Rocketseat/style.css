@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    width: auto;
+    background-image: url(img/old-paper-texture-beige-craft-cardboard-vintage-canvas-surface\ 1.png);
+
+}
+
+main {
+    color: #A54328;
+    font-family: 'Source Serif 4', serif;
+    max-width: 21rem;
+    margin-inline: auto;
+    padding: 3.5rem 2.5rem;
+    box-sizing: content-box;
+    flex-direction: column;
+    display: flex;
+
+}
+
+/* fontes main  */
+main h1 {
+    font-size:1.7rem;
+    font-weight: 700;
+}
+
+img {
+    width: 100%;
+}
+
+main p {
+    font-size: 0.875rem;
+    font-weight: normal;
+}
+
+main h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 36px;
+}
+
+main span {
+    font-size: 1.1rem;
+    font-weight: 700;
+
+}
+
+ol,
+ul {
+    line-height: 1.1rem;
+    font-size: 1rem;
+    font-weight: 400;
+
+}
+
+/* box cheesecake */
+.box-cheesecake {
+    margin-bottom: 2.1rem;
+}
+
+.box-cheesecake img {
+    margin-block: 2.9rem;
+}
+
+/* box preparo */
+.box-preparo {
+    height: 30.9rem
+}
+
+ul {
+    margin-bottom: 1.4rem;
+}
+
+ol,
+ul {
+    padding-left: 1.6rem;
+}
+
+button {
+    color: white;
+    background-color: #A54328;
+    padding-inline: 1.5rem;
+    padding-block: 0.8rem;
+    margin-top: 3.8rem;
+    margin-bottom: 1.3rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    transition: 0.3s;
+    background-color: #d85e3c;
+}
+
+@media (min-width:1196px) {
+    body {
+        margin-top: 5.9rem;
+        background-image: url(img/old-paper-texture-beige-craft-cardboard-vintage-canvas-surface\ 1.png);
+    }
+
+    main {
+        flex-direction: row;
+        max-width: fit-content;
+        gap: 10rem;
+    }
+
+    .box-preparo {
+        max-width: 27.1rem;
+    }
+
+    .box-cheesecake {
+        max-width: 32.8rem;
+    }
+
+main h1, h2 {
+    font-size: 2.5rem;
+line-height: 30px;
+}
+main p{
+    font-size: 1.25rem;
+}
+ li, span{
+    font-size: 1.25rem;
+    line-height: 30px;
+
+}
+}
